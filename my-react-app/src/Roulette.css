@@ -1,0 +1,21 @@
+.roulette-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  position: relative;
+  overflow: hidden;
+}
+
+.roulette-section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center;
+}
